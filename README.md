@@ -51,3 +51,5 @@ public function create(array $data): int
 ```php
 public function request(string $method, string $url, array $data = []): string
 ```
+
+This project runs PHPStan at level 8 - `vendor/bin/phpstan analyse -l 8  src`
